@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff4757;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Brand History */
+.brand-history {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.brand-history h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.buy-btn {
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.coming-soon-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.coming-soon-item {
+    text-align: center;
+}
+
+.coming-soon-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Brand Values */
+.brand-values {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-item {
+    font-style: italic;
+}
+
+/* Call to Action */
+.cta {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cta input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
